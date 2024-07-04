@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Haven</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Book Haven</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#collection">Koleksi</a></li>
+          <li><a href="#order">Pesanan</a></li>
+          <li><a href="view_orders.php">Daftar Pesanan</a></li>
+
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="collection">
+        <h2>Koleksi Buku Kami</h2>
+        <div id="book-list">
+            <div><img id="buku" src="mewarnai.jpg" width="180px" height="200px"><center><div>Mewarnai</drnaiiv></center></div>
+            <div><img id="buku" src="membaca.png" width="180px" height="200px"><center><div>Membaca</div></center></div>
+            <div><img id="buku" src="bintang.jpeg" width="180px" height="200px"><center><div>Bintang</div></center></div>
+            <div><img id="buku" src="matahari.jpg" width="180px" height="200px"><center><div>Matahari</div></center></div>
+            <div><img id="buku" src="hello.jpg" width="180px" height="200px"><center><div>Hello</div></center></div>
+            <div><img id="buku" src="selena.jpg" width="180px" height="200px"><center><div>Selena</div></center></div>
+            <div><img id="buku" src="hujan.jpeg" width="180px" height="200px"><center><div>Hujan</div></center></div>
+            <div><img id="buku" src="bulann.jpg" width="180px" height="200px"><center><div>Bulan</div></center></div>
+            <div><img id="buku" src="lumpu.jpeg" width="180px" height="200px"><center><div>Lumpu</div></center></div>
+            <div><img id="buku" src="nebula.png" width="180px" height="200px"><center><div>Nebula</div></center></div>
+            <div><img id="buku" src="pulang.png" width="175px" height="200px"><center><div>Pulang</div></center></div>
+            <div><img id="buku" src="tentangKamu.jpeg" width="180px" height="200px"><center><div>Tentang Kamu</div></center></div>
+            <div><img id="buku" src="matahariMinor.png" width="180px" height="200px"><center><div>Matahari Minor</div></center></div>
+            <div><img id="buku" src="npb.jpeg" width="180px" height="200px"><center><div>Negeri Para Bedebah</div></center></div>
+            <div><img id="buku" src="pergi.jpeg" width="180px" height="200px"><center><div>Pergi</div></center></div>
+            <div><img id="buku" src="pp.jpeg" width="180px" height="200px"><center><div>Pulang Pergi</div></center></div>
+            <div><img id="buku" src="rindu.jpg" width="180px" height="200px"><center><div>Rindu</div></center></div>
+            <div><img id="buku" src="mariposa.jpeg" width="180px" height="200px"><center><div>Mariposa</div></center></div>
+            <div><img id="buku" src="172days.jpg" width="180px" height="200px"><center><div>172 Days</drnaiiv></center></div>
+            <div><img id="buku" src="alpro.jpeg" width="180px" height="200px"><center><div>Algoritma Pemrograman</div></center></div>
+            <div><img id="buku" src="aplikasiKomputer.jpeg" width="180px" height="200px"><center><div>Aplikasi Komputer</div></center></div>
+            <div><img id="buku" src="dasarlogikainformatika.jpg" width="180px" height="200px"><center><div>Dasar Logika Informatika</div></center></div>
+            <div><img id="buku" src="DDTI.jpg" width="180px" height="200px"><center><div>Dasar-Dasar Teknik Informatika</div></center></div>
+            <div><img id="buku" src="torbopascal.jpeg" width="180px" height="200px"><center><div>Torbo Pascal</div></center></div>
+            
+          
+          
+          <!-- Daftar buku akan diisi oleh JavaScript -->
+        </div>
+      </section>
+
+      <section id="order">
+        <h2>Pesan Buku</h2>
+        <form id="order-form" action="order.php" method="post">
+          <label for="book">Pilih Buku:</label>
+          <select id="book" name="book" required>
+            <!-- Opsi buku akan diisi oleh JavaScript -->
+          </select>
+          <br />
+          <label for="name">Nama Anda:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="tanggal">Tanggal Peminjaman:</label>
+          <input type="date" id="tanggal" name="tanggal" required />
+          <br />
+          <button type="submit">Pesan</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Temukan dunia baru di setiap halaman</p>
+      <p>&copy; Selamat membaca dengan layanan rental buku kami!</p>
+      <p>&copy;Hubungi kami untuk info lebih lanjut dan nikmati koleksi terbaik kami</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

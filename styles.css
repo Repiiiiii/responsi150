@@ -1,0 +1,170 @@
+body {
+  font-family: ailerons;
+  color: #07575B;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background-color:#6EB5C0;
+}
+
+header {
+  background-color:#006C84;
+  color:#E2E8E4;
+  padding: 10px;
+  text-align: center;
+  font-family: ailerons;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color:#51939d;
+  font-family: ailerons;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  color:#E2E8E4;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+#book-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+#buku {
+  margin: 5px;
+}
+.menu a:hover {
+  background-color: #07575B;
+}
+
+td {
+  padding-right: 5px;
+}
+main {
+  padding: 20px;
+  text-align: center;
+  font-size: medium;
+  color: #E2E8E4;
+}
+
+section {
+  margin-bottom: 300px;
+}
+
+footer {
+  background-color:#006C84;
+  color:#E2E8E4;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  font-family: brassie;
+}
+#order {
+  color: #E2E8E4;
+  background-color: #006C84;
+  border: 1px solid #07575B;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: large;
+}
+
+#order h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#order-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#order-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#order-form input[type="text"],
+#order-form input[type="date"],
+#order-form select {
+  color:#07575B;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #07575B;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: brassie;
+}
+
+#order-form button {
+  color: #07575B;
+  background-color: #6EB5C0;
+  text-decoration-color: #07575B;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: medium;
+}
+
+#order-form button:hover {
+  background-color:#6EB5C0;
+}
+
+header h1 {
+  color: #E2E8E4;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+#orders h3 {
+  margin-top: 0;
+  color:#07575B;
+}
+
+pre {
+  color: #E2E8E4;
+  background-color:#006C84;
+  font-size: large;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap; /* Membungkus teks */
+  word-wrap: break-word; /* Membungkus kata jika terlalu panjang */
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+#thank-you-message {
+  background-color: #006C84; /* Warna latar belakang hijau */
+  color:#E2E8E4; /* Warna teks putih */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+  font-size: larger;
+  max-width: 600px; /* Lebar maksimal untuk bagian pesan */
+}
